@@ -17,13 +17,14 @@ const userSchema = new mongoose.Schema({
     },
     gender: {
         type: String,
-        enum: ['Male', 'Female', 'Other'],
+        enum: ['male', 'female', 'other'],
         required: true,
     },
     profilePic: {
         type: String,
         default: "",
     },
+    status: { type: Boolean, default: true },
     //createdAt, updatedAt => Member since <createdAt
 }, { timestamps: true});
 
