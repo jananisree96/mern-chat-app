@@ -1,4 +1,4 @@
-# MERN Stack Project: Build and Deploy a Real-Time Chat App  
+# MERN Stack Real-Time Chat App  
 
 ### Features:  
 - 🌟 **Tech stack**: MERN + Socket.io + TailwindCSS + Daisy UI  
